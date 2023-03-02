@@ -1,0 +1,2 @@
+# This file works just like a .gitignore file when the Dockerfile executes a COPY command.
+MyCoolApp/
