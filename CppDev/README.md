@@ -22,7 +22,7 @@ And that's it! It's nice that GCC has almost all the tools we need. Things like 
 Let's build and run this!
 
 ```shell
-docker build -t cpp_dev:0.1 .
+docker build -t cpp-dev:0.1 .
 ```
 
 When we rub this, lets skip straight into using a volume so we can edit the file and re-compile as we see fit. To help save some typing we can use the shortcuts `%cd%` in Windows or `$(pwd)` Linux to print our current directories. This makes declaring a volume with the `docker run` command much easier!
@@ -30,13 +30,13 @@ When we rub this, lets skip straight into using a volume so we can edit the file
 On Windows run the container with:
 
 ```cmd
-docker run --name CppDev -it -v %cd%:/CppDevRemote cpp_dev:0.1
+docker run --name CppDev -it -v %cd%:/CppDevRemote cpp-dev:0.1
 ```
 
 On Linux run the container with:
 
 ```cmd
-docker run --name CppDev -it -v %cd%:/CppDevRemote cpp_dev:0.1
+docker run --name CppDev -it -v %cd%:/CppDevRemote cpp-dev:0.1
 ```
 
 ## Compiling

@@ -53,7 +53,7 @@ What I did was simply the first and easiest solution that I could find. Perhaps 
 If you've followed these in order you should be capable of building and running containers now. Click the spoilers if you need a hit
 
 Build:
->! docker build -t python_dev:0.1 .
+>! docker build -t python-dev:0.1 .
 
 Run:
 >! docker run --name PythonDev -it -v $(pwd):/PythonDev /bin/bash
