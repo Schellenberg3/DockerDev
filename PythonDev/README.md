@@ -56,7 +56,7 @@ Build:
 >! docker build -t python-dev:0.1 .
 
 Run:
->! docker run --name PythonDev -it -v $(pwd):/PythonDev /bin/bash
+>! docker run --name PythonDev -it -v $(pwd):/PythonDev python-dev:0.1 /bin/bash
 
 Execute:
 >!python /project/main.py
