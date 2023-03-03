@@ -52,11 +52,17 @@ What I did was simply the first and easiest solution that I could find. Perhaps 
 
 If you've followed these in order you should be capable of building and running containers now. Click the spoilers if you need a hit
 
-Build:
->! docker build -t python-dev:0.1 .
+<details>
+     <summary>Build Command</summary>
+     docker build -t python-dev:0.1 .
+</details>
 
-Run:
->! docker run --name PythonDev -it -v $(pwd):/PythonDev python-dev:0.1 /bin/bash
+<details>
+     <summary>Run Command</summary>
+     docker run --name PythonDev -it -v $(pwd):/PythonDev python-dev:0.1 /bin/bash
+</details>
 
-Execute:
->!python /project/main.py
+<details>
+     <summary>Execute Main.py Command</summary>
+     python /project/main.py
+</details>
