@@ -1,6 +1,6 @@
 # Compose Basics
 
-Inside this tutorial director we revisit the generic `MyCoolApp` that was used to demonstrate the fundamentals of Docker inside the Basics directory. We now uses this same project to explore the essentials of docker-compose. Here, this tool is used to build our Dockerfiles, launch multiple containers, create and attach volumes with one command that operates from a file called `docker-compose.yaml`
+Inside this tutorial director we revisit the generic `MyCoolApp` that was used to demonstrate the fundamentals of Docker inside the [Basics directory](../Basics). We now uses this same project to explore the essentials of docker-compose. Here, this tool is used to build our Dockerfiles, launch multiple containers, create and attach volumes with one command that operates from a file called `docker-compose.yaml`
 
 As we scale up our applications we may find it easier to break a complex service into many micro-services. Or we may find that the docker command to launch a single development container becomes cumbersome to type and prone to misspellings or simple syntactical mistakes.
 
