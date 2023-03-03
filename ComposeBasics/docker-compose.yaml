@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  cool-app:
+    build: .
+    command: ping localhost -i 5
+    volumes:
+      # Your host path may change based on if you are on a Windows or
+      # unix system because of the waay paths are described.
+      # If you get an error try switching the `\` to `/` 
+      - .\MyCoolApp:/MyCoolApp

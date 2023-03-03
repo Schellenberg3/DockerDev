@@ -18,6 +18,10 @@ This sub-directory demonstrates a simple C++ application on a linux container. I
 
 This sub-directory demonstrates the Python official container and how to get started with containers that provide drop-in tools.
 
+## Compose Basics
+
+This sub-directory demonstrates the Docker Compose tool. It provides a minimal example of the key commands and how to write a Docker Compose file. 
+
 ## ROSDev
 
 This sub-directory demonstrates the ROS 2 official container. We show how we can run ROS 2 on Ubuntu 20.04 amd ROS on Ubuntu 18.04 on the same machine.
