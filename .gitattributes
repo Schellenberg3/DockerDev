@@ -1,0 +1,16 @@
+# This file helps git maintain peroper line endings when viewing the same files on both
+# Windows and Linux systems.
+#
+# For details on how this affects Git/Github see:
+#     https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings
+#
+# The code here lets git automatically detect what files it believes are text (as opposed
+# to binaries or other formats) and assigns them a LF (Unix style) line ending. Any files ending
+# in cmd or bat (regarless of capitalization) retain CRLF (Windows style) line endings. (These two
+# files are Windows specific extensions so this makes sense.)
+#
+# This code is copied from the VS Code Remote Development docs: 
+#     https://code.visualstudio.com/docs/remote/troubleshooting#_resolving-git-line-ending-issues-in-wsl-resulting-in-many-modified-files
+* text=auto eol=lf
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf

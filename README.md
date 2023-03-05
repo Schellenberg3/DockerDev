@@ -22,6 +22,10 @@ This sub-directory demonstrates the Python official container and how to get sta
 
 This sub-directory demonstrates the Docker Compose tool. It provides a minimal example of the key commands and how to write a Docker Compose file.
 
+## [DevContainers](DevContainers)
+
+This sub-directory describes how to use dev containers, a feature of VS Code which integrates VS Code as a process running inside of your Docker container. This allows extensions to operate naturally within the container. It demonstrates this by creating a dev container for this repo (i.e., the top level [Dockerfile](Dockerfile) is related to this sub-directory).
+
 ## [ROSDev](ROSDev)
 
 This sub-directory demonstrates the ROS 2 official container. We show how we can run ROS 2 on Ubuntu 20.04 amd ROS on Ubuntu 18.04 on the same machine.

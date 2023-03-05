@@ -1,0 +1,22 @@
+{
+    "name": "DockerDev",
+    "build" : {
+        "dockerfile": "../Dockerfile"
+    },
+   
+    "customizations": {
+        "vscode": {
+            // The following VS Code extensions are installed within the server.
+            // Note that these are separate from what is installed on the host running the
+            // client. Having server (container) side extensions lets us a lot.
+            "extensions": [
+                "ms-python.python",
+                "ms-vscode.cpptools",
+                "ms-azuretools.vscode-docker",
+                "ms-iot.vscode-ros",
+                "DavidAnson.vscode-markdownlint",
+                "streetsidesoftware.code-spell-checker"
+            ]
+        }
+    }
+}
