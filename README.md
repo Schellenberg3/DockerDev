@@ -20,7 +20,7 @@ This sub-directory demonstrates the Python official container and how to get sta
 
 ## [Compose Basics](ComposeBasics)
 
-This sub-directory demonstrates the Docker Compose tool. It provides a minimal example of the key commands and how to write a Docker Compose file. 
+This sub-directory demonstrates the Docker Compose tool. It provides a minimal example of the key commands and how to write a Docker Compose file.
 
 ## [ROSDev](ROSDev)
 
